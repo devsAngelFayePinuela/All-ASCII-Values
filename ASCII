@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+main ()
+{
+	int x;
+	
+	for (x = 0; x <= 254; x++)
+	{
+		printf ("ASCII no. %d: %c\n", x, x);
+	}
+}
